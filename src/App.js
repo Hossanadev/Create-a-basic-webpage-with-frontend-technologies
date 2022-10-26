@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Body from "./Component/Body/Body";
+import Footer from "./Component/Footer/Footer";
+import Header from "./Component/Header/Header";
+import "./App.css";
 
-function App() {
+const App = () => {
+
+  const soci = {
+    twi: {
+      title: "Twitter Link",
+      id: "twitter",
+      url: "https://twitter.com/hossanadev/"
+  }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="app">
+          <Header />
+          <Body twitter={soci.twi.title} twiURL={soci.twi.url}/>
+          <Footer />
+      </div>
+    </>
   );
-}
+};
 
 export default App;

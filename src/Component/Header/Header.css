@@ -1,0 +1,31 @@
+.profile {
+    font-weight: 900;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    margin-left: 700px;
+    margin-top: -75px;
+}
+
+.slack {
+    display: none;
+}
+
+@media screen and (max-width: 999px) {
+    .profile {
+      margin-top: 40px;
+    }
+
+    .nav {
+        display: flex;
+        margin-left: 260px;
+        margin-top: -75px;
+    }
+  }
