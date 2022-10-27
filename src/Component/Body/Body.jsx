@@ -5,22 +5,27 @@ const allLinks = {
   zuri: {
     title: "Zuri Team",
     url: "https://training.zuri.team/",
+    id: "btn_zuri"
   },
   zuriBooks: {
     title: "Zuri Books",
     url: "https://books.zuri.team/",
+    id: "books"
   },
   pythonBooks: {
     title: "Python Books",
     url: "https://books.zuri.team/python-for-beginners?ref_id=<Hossanadev>",
+    id: "book_python"
   },
   bgChecks: {
     title: "Background Check for Coders",
-    url: "https://background.zuri.team/"
+    url: "https://background.zuri.team/",
+    id: "pitch"
   },
   designBook: {
     title: "Design Books",
-    url: "https://books.zuri.team/design-rules/"
+    url: "https://books.zuri.team/design-rules/",
+    id: "book_design"
   }
 };
 
